@@ -1,0 +1,84 @@
+.container{
+    margin-bottom: 100px;
+}
+.slider-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.slider-bg img{
+    width: 80% !important;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.slide-price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 9px 25px;
+    border-radius: 8px;
+
+}
+
+.cat-1,.cat-2,.cat-3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.cat-1{
+    background-color: orange;
+}
+.cat-2{
+    background-color: purple;
+}
+.cat-3{
+    background-color: blue;
+}
+
+.shoes button{
+    margin-top: 20px;
+}
+.shoes .card{
+    border: none;
+    box-shadow: 10px 10px 15px lightgray;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.shoes .card:hover{
+    background-color: #00DBDE;
+    background-image: linear-gradient(118deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+.shoes .card img{
+    transition: all .3s ease;
+}
+.shoes .card:hover img{
+    transform: rotate(-10deg) scale(1.1);
+}
+.bags .card:hover{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.bags img{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.bags .card:hover img{
+    transform: rotate(-20deg) scale(1.2);
+   
+}
+#contact{
+    padding: 40px 0px;
+    width: 50%;
+}
+#contact input{
+    margin-bottom: 15px;
+}
+#contact p{
+    color: gray;
+}
